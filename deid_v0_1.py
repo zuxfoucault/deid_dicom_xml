@@ -251,11 +251,9 @@ def main_deid(source_file, dest_file):
 def main(args):
     """ Main entry point of the app """
     if args.source == None:
-        args.source = "/home/foucault/projects/data/ForTMULung_DeID/root/"
-        #args.source = "/media/foucault/TOSHIBA/去識別化/"
+        args.source = "Predefined path"
     if args.dest == None:
-        args.dest = "/home/foucault/projects/data/ForTMULung_DeID/root_deid/"
-        #args.dest = "/media/foucault/TOSHIBA/去識別化_deid/"
+        args.dest = "Predefined path"
     main_deid(args.source, args.dest)
 
 
